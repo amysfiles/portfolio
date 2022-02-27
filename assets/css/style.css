@@ -56,11 +56,31 @@ nav ul {
 }
 
 .about-me p {
-    margin: 10px;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 700px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: #D4C3DA;
+    border: solid 5px #561A89 ;
 }
 
 .my-skills {
     text-align: center;
+}
+
+.my-skills li {
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 700px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: #D4C3DA;
+    border: solid #561A89;
 }
 
 .projects {
