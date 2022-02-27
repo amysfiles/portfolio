@@ -6,7 +6,11 @@
 body {
     background-color: #FCD19A;
     font-family: Helvetica, Arial, sans-serif;
+     
 }
+
+/* HEADER SECTION */
+
 header {
     padding: 20px 35px;
     background-color:#D4C3DA;
@@ -20,6 +24,8 @@ header h1 {
     color: #000000;
     margin: 0 auto;
 }
+
+/* NAVIGATION */
 
 nav {
     background-color: #BC85DF;
@@ -38,6 +44,27 @@ nav ul {
     align-items: center;
     list-style: none;
 }
+
+section {
+    padding: 30px;
+}
+
+section h2 {
+    padding: 30px;
+}
+
+footer {
+    padding: 20px 35px;
+    background-color:#D4C3DA;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer section h2 {
+    padding: 30px;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -50,6 +77,8 @@ nav ul {
     font-size: 30px;
     color: #FFFFFF;
 }
+
+/* ABOUT ME */
 
 .about-me {
     text-align: center;
@@ -67,6 +96,8 @@ nav ul {
     border: solid 5px #561A89 ;
 }
 
+/* MY SKILLS */
+
 .my-skills {
     text-align: center;
 }
@@ -83,6 +114,23 @@ nav ul {
     border: solid #561A89;
 }
 
+/* PROJECTS */
+
 .projects {
     text-align: center;
 }
+
+.projects div {
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+    width: 700px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    background-color: #D4C3DA;
+    border: solid 5px #561A89 ;
+}
+
+/* FOOTER */
+
