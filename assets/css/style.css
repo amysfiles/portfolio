@@ -1,0 +1,68 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FCD19A;
+    font-family: Helvetica, Arial, sans-serif;
+}
+header {
+    padding: 20px 35px;
+    background-color:#D4C3DA;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px; 
+    color: #000000;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #BC85DF;
+}
+
+nav ul li a {
+    margin: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 10px #561A89;
+}
+
+.flex-links {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.about-me {
+    text-align: center;
+}
+
+.about-me p {
+    margin: 10px;
+}
+
+.my-skills {
+    text-align: center;
+}
+
+.projects {
+    text-align: center;
+}
